@@ -315,19 +315,19 @@ input, select, textarea {
 	}
 
 	input, select, textarea {
-		color: #ffffff;
+		color: #faead3;
 	}
 
 	a:hover {
-		color: #ffffff;
+		color: #faead3;
 	}
 
 	strong, b {
-		color: #ffffff;
+		color: #faead3;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #faead3;
 	}
 
 	blockquote {
@@ -3045,6 +3045,7 @@ input, select, textarea {
 
 			.spotlight .content header.major {
 				margin: 0 0 2em 0;
+				text-align: center;
 			}
 
 		.spotlight .image {
@@ -3661,11 +3662,7 @@ input, select, textarea {
 		}
 
 		#main header.major h2:after {
-			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #fee27e, #fee27e, #fe4d1e);
-			background-image: -webkit-linear-gradient(90deg, #fee27e, #fee27e, #fe4d1e);
-			background-image: -ms-linear-gradient(90deg, #fee27e, #fee27e, #fe4d1e);
-			background-image: linear-gradient(90deg, #fee27e, #fee27e, #fe4d1e);
+			background-color: #fe4d1e;
 		}
 
 		#main table tbody tr {
@@ -3843,11 +3840,17 @@ input, select, textarea {
 			clear: none;
 			margin: 0;
 			grid-column: 1;
+			color: #faead3;
 		}
 
 		#footer dl.alt dd {
 			margin: 0;
 			grid-column: 2;
+		}
+
+		#footer dl.alt dd a {
+			color: #fee27e;
+			border-bottom-color: #fee27e;
 		}
 
 		#footer dl.alt:after {
@@ -3867,6 +3870,10 @@ input, select, textarea {
 			display: inline-block;
 			margin: 0;
 			padding: 0;
+		}
+
+		#footer .icons a {
+			color: #faead3;
 		}
 
 		@media screen and (max-width: 1280px) {
